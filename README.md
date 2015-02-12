@@ -1,9 +1,12 @@
 # SocNet
 Just another Social Network. EXCEPT This one is open-source, so you can call it your own for that college application.
-
+<hr/>
 This Social Network sits on PHP (Just like Facebook), JS, CSS, and of course HTML (Asked a non coder for full-form, he said "How To Manipulate Lanterns")
 
 I will happily except pull requests, new wiki pages etc. 
 PLEASE FEEL FREE TO (make) a PULL REQUEST
 
-SEE LICENCE FOR LEGAL INFORMATION. DO NOT COPY OR DOWNLOAD UNTIL YOU SEE LICENSE
+<b>SEE LICENCE FOR LEGAL INFORMATION. DO NOT COPY OR DOWNLOAD UNTIL YOU SEE LICENSE</b>
+<hr/>
+<b>LOOKING FOR</b>
+LOOKING FOR PEOPLE TO TEST CODE. Download then test. Make sure you have php. Report all issues
