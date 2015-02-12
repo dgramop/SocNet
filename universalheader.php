@@ -9,10 +9,6 @@
     <style src="stylesforunivheader.css"></style><!--Keep as much CSS in that file as possible - this is to prevent clutter-->
   </head>
   <body>
-    <header>
-      <?php include 'universalheader.php';?><!--TODO: Alternatively put iframe if it dosnt work.-->
-    </header>
-    <footer>
-    </footer>
+
   </body>
 </html>
