@@ -6,7 +6,7 @@
     <!--META tags and Favicon-->
     <!--No more META tags and Favicon-->
     <script src="jsforunivheader.js"></script><!--Keep as much JS in that file as possible - this is to prevent clutter-->
-    <style src="stylesforunivhearder.css"></style><!--Keep as much CSS in that file as possible - this is to prevent clutter-->
+    <style src="stylesforunivheader.css"></style><!--Keep as much CSS in that file as possible - this is to prevent clutter-->
   </head>
   <body>
     <header>
