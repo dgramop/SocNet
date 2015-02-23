@@ -11,8 +11,10 @@
     <header>
       <?php include 'universalheader.php';?><!--TODO: Alternatively put iframe if it dosnt work.-->
     </header>
+    <div id="middle">
+      <?php include 'recentPosts.php' ?>
+    </div>
     <footer>
-    <b>Developed By Dhruv Gramopadhye and many other hyper diaper wipers. To see other contributers, go to <a href="http://git.io/N4wM">http://git.io/N4wM</a>. This is an open source project. All Rights Reserved By Dhruv Gramopadhye</b>
-    </footer> 
+    <b>Developed By Dhruv Gramopadhye and many other hyper diaper wipers. To see other contributers, go to <a href="http://git.io/N4wM">http://git.io/N4wM</a>. This is an open source project. All Rights Reserved By Dhruv Gramopadhye</b>    </footer> 
   </body>
 </html>
