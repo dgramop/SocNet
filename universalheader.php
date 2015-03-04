@@ -9,6 +9,6 @@
     <style src="stylesforunivheader.css"></style><!--Keep as much CSS in that file as possible - this is to prevent clutter-->
   </head>
   <body>
-
+<div class="headerbuttons" id="btn1">My Posts</div><div class="headerbuttons" id="btn2">My Posts</div><div class="headerbuttons" id="btn3">My Posts</div>
   </body>
 </html>
