@@ -1,1 +1,23 @@
 //This is where most of our CSS will go. Thank you for using this file to destroy clutter on our header
+
+.headerbuttons
+  {
+    display:inline;
+    width:5%;
+    height:7%;
+  }
+  
+#btn1
+{
+  
+}
+
+#btn2
+{
+  
+}
+
+#btn3
+{
+  
+}
