@@ -6,7 +6,11 @@ This Social Network sits on PHP (Just like Facebook), JS, CSS, and of course HTM
 I will happily except pull requests, new wiki pages etc. 
 PLEASE FEEL FREE TO (make) a PULL REQUEST
 
+master branch has development copy. deployment has the copy that works best.
+
 <b>SEE LICENCE FOR LEGAL INFORMATION. DO NOT COPY OR DOWNLOAD UNTIL YOU SEE LICENSE</b>
 <hr/>
 <b>LOOKING FOR</b>
 LOOKING FOR PEOPLE TO TEST CODE. Download then test. Make sure you have php. Report all issues
+
+
