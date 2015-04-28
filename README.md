@@ -8,9 +8,5 @@ PLEASE FEEL FREE TO (make) a PULL REQUEST
 
 master branch has development copy. deployment has the copy that works best.
 
-<b>SEE LICENCE FOR LEGAL INFORMATION. DO NOT COPY OR DOWNLOAD UNTIL YOU SEE LICENSE</b>
+<b>See LICENSE</b>
 <hr/>
-<b>LOOKING FOR</b>
-LOOKING FOR PEOPLE TO TEST CODE. Download then test. Make sure you have php. Report all issues
-
-
