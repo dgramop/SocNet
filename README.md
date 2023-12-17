@@ -1,14 +1,11 @@
-# SocNet
-SocNet is no longer open source due to increasing numbers of downloads that stripped my credits. Use SocNet at socnet.16mb.com . SocNet was completely built by Dhruv Gramopadhye. Pull requests will not be considered.
+For archival reasons, I'm publishing one of my first "fully featured" web applications. 
 
-# NEWS!!
-On Sunday, Febuary 21, 2015, I plan to release SocNet to the -wild- open source community! Pulls and commits will work!
+SocNet was developed by me in middle school, and the files uploaded here are 
 
-As of now, the basic skelton of SocNet is secure. I may use BountySource Salt to fund development of SocNet. SocNet will be free to download and fork and customise, so long as the footer is intact and a link is given to this repo and http://dgramop.co on the index (landing) page.
+There are some massive security issues with this social network implemntation - XSS, bad password storage etc. 
 
-I am planning a few updates:
-1st update: Features like Profile Pic, Facial Recognition (Through API), image upload bugfixes
+When I became interested in cybersecurity, I used this backup as a testing ground to learn how to identify vulnerabilities
 
-2nd update: Plugin Capbilities (Fun eh?). SocNet could become an online API where you curl my server... No big plans on this one.
+The backup uploaded here was dated May 22, 2015 and is one of the last iterations of SocNet. 
 
-Pull requests will be considered on the new Qenilow
+I included the "database", but passwords have been stripped. To test logging in, you can create a password by populating "password.inf" under any user's directory

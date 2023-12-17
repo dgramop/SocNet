@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:JutaGeByda
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u940584305/public_html/users/.htpasswd
+Require user dgramop
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE JutaGeByda:PWPROTECTID
+

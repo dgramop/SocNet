@@ -1,0 +1,3 @@
+   If you enter "all", then all users may access it. Note that is you enter "nobody" the user "nobody" can access your stream.
+If you fail to change the information in this textarea, the users who have usernames that match words in this textarea can read your stream. The list IS comma seperated.
+BrodiferJames  

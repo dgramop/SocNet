@@ -1,0 +1,42 @@
+<!-- Can be achieved throuh splitting of file too, but in the end it will look something like this. Ctrl+F blank to fill in values-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> SocNet - Login </title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+<div class="jumbotron">
+<center><h1>SocNet Login</h1></center><br/><center><h5>&lt;<a href="/default.php">Home</a> | <a href="/newuser.php">Create Account</a>&gt;</h5></center>
+</div>
+</header><br/>
+<div class="container">
+<center>
+<form action="login.php" method="post">
+	<input type="text" name="user">
+	<input type="password" name="password">
+	<input type="submit" value="Login">
+	</form>
+	<script>
+         var hash = window.location.hash;
+		 hash=hash.replace("#", "");
+		 hash=hash.replace("p", "P");
+		 hash=hash.replace("i", "I");
+		 hash=hash.replace("-", " ");
+		 hash="<code>" + hash + "</code>";
+		 document.writeln(hash);
+	</script>
+<br/><hr/>
+</center>
+</div>
+<footer>
+	All rights reserved by Dhruv Gramopadhye<br/>Servers have feelings t00!
+<hr/>
+</footer>
+</body>
+</html>

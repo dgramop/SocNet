@@ -1,0 +1,73 @@
+<!-- Can be achieved throuh splitting of file too, but in the end it will look something like this. Ctrl+F blank to fill in values-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML GUIDE</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script>
+		function getCookie(cname) {
+   		 var name = cname + "=";
+  		 var ca = document.cookie.split(';');
+   		 for(var i=0; i<ca.length; i++) {
+         var c = ca[i];
+      	 while (c.charAt(0)==' ') c = c.substring(1);
+        	if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    		}
+   		 return "";
+	}
+
+		
+if(getCookie("PHPSESSID") == "")
+{
+window.location="login.htm";
+}
+
+function showresult(stuff)
+	{
+		document.getElementById("stuff").innerHTML=stuff;
+	}
+	</script>
+</head>
+<body>
+<header>
+<div class="jumbotron">
+<center><h1>HTML Guide</h1></center><br/><center><h5>&lt;<a href="/default.php">Home</a> | <a href="dashboard.php">Dashboard</a>&gt;</h5></center>
+</div>
+</header><br/>
+<div class="container">
+<center>
+<b>Examples (monkey see, monkey do, except add in the monkey way)</b><br/><br/>
+	
+&lt;a href=&quot;http://blah.com&quot;&gt;LINK TEXT&lt;/a&gt;<br/>
+&lt;b&gt;BOLD TEXT&lt;/b&gt;<br/>
+&lt;i&gt;ITALICIZED&lt;/i&gt;<br/>
+&lt;u&gt;UNDERLINED&lt;/u&gt;<br/>
+&lt;iframe src=&quot;http://example.com&quot; width=&quot;1000px&quot; height=&quot;700px&quot;&gt;&lt;/iframe&gt;<br/>
+&lt;br/&gt; Next Line Charcter.<br/>
+&lt;img alt=&quot;Example Description&quote; src=&quot;http://exampleimage.com/image.gif&quot; width=&quot;1000px&quot; height=&quot;700px&quot;&gt;&lt;/img&gt;<br/>
+<br/>
+	IF YOU DONT WANT TO HAVE TO KEEP USING &lt;br/&gt; PUT &lt;pre&gt; AT THE BEGINNING OF YOUR TEXT&lt;/pre&gt; 
+<br/><br/>
+	RENDERED (How it looks.):<br/>
+<a href="http://blah.com">TEXT</a><br/>
+<b>BOLD TEXT</b><br/>
+<i>ITALICIZED</i><br/>
+<u>UNDERLINED</u><br/><br/>
+<iframe src="http://example.com" width="1000px" height="700px"></iframe><br/><br/>
+<br/> Next Line Charcter.
+<img src="http://w3schools.com/html/pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px"><br/><br/>
+
+For more visit:
+<a href="http://www.w3schools.com/"> http://www.w3schools.com/ </a>
+<br/><hr/>
+	</center>
+</div>
+<footer>
+<hr/>
+</footer>
+</body>
+</html>
